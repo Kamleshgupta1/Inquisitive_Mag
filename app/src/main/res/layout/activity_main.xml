@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorForeground"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="197dp"
+        android:text="   Welcome to the world of \n      Inquisitive Magazine"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="145dp"
+        android:text="           Explore the stories of real people"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:text="ENTER"
+        android:textColor="@android:color/background_light"
+        android:textSize="23sp"
+        android:background="@drawable/button_border"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignTop="@+id/button"
+        android:background="@android:color/white" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:background="?attr/colorBackgroundFloating" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignTop="@+id/button"
+        android:background="@android:color/white" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignTop="@+id/button"
+        android:background="?attr/colorBackgroundFloating" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:background="?attr/colorBackgroundFloating" />
+
+</android.widget.RelativeLayout>
+
